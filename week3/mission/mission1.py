@@ -1,6 +1,5 @@
 def get_average(scores):
     """점수 리스트를 받아 평균을 반환하는 함수"""
-    # 리스트가 비어있는 경우 0을 반환하여 에러 방지
     if not scores:
         return 0
     return sum(scores) / len(scores)
